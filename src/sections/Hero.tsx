@@ -18,7 +18,7 @@ export default function Hero() {
     return { scale: s, opacity: o, translateY: y };
   }, [progress]);
 
-  // Reproduce solo cuando alcanza el tamaño máximo (progress = 1)
+  // Reproduce solo cuando alcanza el tamaño máximo (progx  ress = 1)
   useEffect(() => {
     const v = videoRef.current;
     if (!v) return;

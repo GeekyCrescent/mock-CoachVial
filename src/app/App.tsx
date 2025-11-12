@@ -1,10 +1,14 @@
+import AboutUs from "../sections/AboutUs";
+import Flotillas from "../sections/Flotillas";
+import Services from "../sections/Services";
 import Layout from "./layout";
 
 export default function App() {
   return (
     <Layout>
-      {/* Aquí van tus secciones en orden */}
-      {/* Hero está dentro del Layout */}
+          <AboutUs />
+          <Services />
+          <Flotillas />
     </Layout>
   );
 }

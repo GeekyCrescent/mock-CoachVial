@@ -96,7 +96,7 @@ export default function Navbar() {
         <div className="hidden md:flex items-center pr-4">
           <a
             href="#contact"
-            className="rounded-xl bg-red-400 px-4 py-2 text-sm font-semibold text-neutral-900 hover:bg-red-300 transition"
+            className="rounded-xl bg-red-500 px-4 py-2 text-sm font-semibold text-white hover:bg-red-600 transition "
           >
             Contáctanos
           </a>
@@ -172,7 +172,7 @@ export default function Navbar() {
           <div className="px-3 pb-4">
             <a
               href="#contact"
-              className="block w-full text-center rounded-xl bg-red-400 px-3 py-3 text-sm font-semibold text-neutral-900 hover:bg-red-300 transition"
+              className="block w-full text-center rounded-xl bg-red-500 px-3 py-3 text-sm font-semibold text-white hover:bg-red-600 transition "
             >
               Contáctanos
             </a>
